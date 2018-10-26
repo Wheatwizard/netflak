@@ -1,0 +1,21 @@
+name:                netflak
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/WheatWizard/netflak#readme
+license:             AGPL-3.0-or-later
+author:              Eamon Olive
+maintainer:          Louis Hyde, Eamon Olive
+copyright:           2018 Eamon Olive
+category:            Game
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - ncurses
+
+executables:
+  netflak:
+    source-dirs:      src
+    main:             Main.hs
